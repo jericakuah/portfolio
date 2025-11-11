@@ -41,6 +41,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-accent: var(--color-accent);
 }
 
 :root {
@@ -110,6 +111,27 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+}
+
+[data-theme="anyone"] {
+  --color-accent: oklch(0.4483 0.0976 141.9);
+  --background: oklch(0.1894 0.0572 136.79);
+  --foreground: oklch(0.9761 0 0);
+  --primary: oklch(0.9761 0 0);
+}
+
+[data-theme="founders"] {
+  --background: oklch(0.3932 0.1203 41.26);
+  --color-accent: oklch(0.6815 0.187 47.16);
+  --foreground: oklch(0.9761 0 0);
+  --primary: oklch(0.9761 0 0);
+}
+
+[data-theme="investors"] {
+  --background: oklch(0.2253 0.0738 254.85);
+  --color-accent: oklch(0.6636 0.1815 278.85);
+  --foreground: oklch(0.9761 0 0);
+  --primary: oklch(0.9761 0 0);
 }
 
 @layer base {

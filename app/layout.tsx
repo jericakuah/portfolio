@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Serif, IBM_Plex_Mono } from "next/font/google";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
 
 import "./globals.css";
 
@@ -26,11 +27,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${ibmPlexSerif.variable} ${ibmPlexMono.variable} antialiased`}
       >
-        {children}
+        <NextThemesProvider
+          attribute="data-theme"
+          defaultTheme="anyone"
+          themes={["anyone", "founders", "investors"]}
+        >
+          {children}
+        </NextThemesProvider>
       </body>
     </html>
   );
