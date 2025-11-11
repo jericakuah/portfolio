@@ -8,7 +8,7 @@ export default function Navbar() {
       <Link href="/">
         <JericaIcon className="w-10 h-10" />
       </Link>
-      <div className="flex items-center gap-4">
+      <div className="items-center gap-4 hidden sm:flex">
         <Link href="/">about</Link>
         <Link href="/">blogs</Link>
         <Link href="/">values</Link>

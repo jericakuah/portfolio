@@ -5,7 +5,6 @@ import { useTheme } from "next-themes";
 import Navbar from "@/components/navbar";
 import { Button } from "@/components/ui/button";
 
-// TODO: Design for mobile screen sizes as well
 export default function Home() {
   const { setTheme, theme } = useTheme();
 
@@ -17,7 +16,7 @@ export default function Home() {
           <div className="flex flex-row gap-8">
             <Button
               variant="link"
-              className={`px-0 text-lg ${
+              className={`px-0 sm:text-lg text-sm ${
                 theme === "anyone" ? "underline" : ""
               }`}
               onClick={() => setTheme("anyone")}
@@ -26,7 +25,7 @@ export default function Home() {
             </Button>
             <Button
               variant="link"
-              className={`px-0 text-lg ${
+              className={`px-0 sm:text-lg text-sm ${
                 theme === "founders" ? "underline" : ""
               }`}
               onClick={() => setTheme("founders")}
@@ -35,7 +34,7 @@ export default function Home() {
             </Button>
             <Button
               variant="link"
-              className={`px-0 text-lg ${
+              className={`px-0 sm:text-lg text-sm ${
                 theme === "investors" ? "underline" : ""
               }`}
               onClick={() => setTheme("investors")}
@@ -44,9 +43,9 @@ export default function Home() {
             </Button>
           </div>
 
-          <h1 className="text-[84px]">hello, my name is Jerica.</h1>
+          <h1 className="sm:text-[84px] text-4xl">hello, my name is Jerica.</h1>
 
-          <h2 className="text-[50px]">
+          <h2 className="sm:text-[50px] text-2xl">
             & i want to make a{" "}
             <span className="font-bold italic text-accent">
               positive impact
