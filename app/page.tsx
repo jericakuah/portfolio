@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex flex-row gap-8">
             <Button
               variant="link"
-              className={`px-0 sm:text-lg text-sm ${
+              className={`px-0 sm:text-lg text-sm hover:text-accent-green ${
                 theme === "anyone" ? "underline" : ""
               }`}
               onClick={() => setTheme("anyone")}
@@ -25,7 +25,7 @@ export default function Home() {
             </Button>
             <Button
               variant="link"
-              className={`px-0 sm:text-lg text-sm ${
+              className={`px-0 sm:text-lg text-sm hover:text-accent-orange ${
                 theme === "founders" ? "underline" : ""
               }`}
               onClick={() => setTheme("founders")}
@@ -34,7 +34,7 @@ export default function Home() {
             </Button>
             <Button
               variant="link"
-              className={`px-0 sm:text-lg text-sm ${
+              className={`px-0 sm:text-lg text-sm hover:text-accent-purple ${
                 theme === "investors" ? "underline" : ""
               }`}
               onClick={() => setTheme("investors")}
