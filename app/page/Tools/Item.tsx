@@ -9,7 +9,7 @@ type Props = {
 
 export default function Item({ imageSrc, title }: Props) {
   return (
-    <Card className="p-0 font-mono border-none bg-transparent gap-2 w-[120px] items-center justify-center">
+    <Card className="p-0 font-mono border-none bg-transparent gap-2 w-[120px] items-center justify-center shadow-none">
       <Image src={imageSrc} alt={title} width={120} height={120} />
       <CardContent className="flex flex-col gap-2 p-0">
         <p className="text-foreground text-md font-mono">{title}</p>
