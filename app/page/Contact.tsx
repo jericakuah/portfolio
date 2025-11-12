@@ -13,7 +13,10 @@ export default function Contact() {
         drop a note - I always enjoy a good conversation.
       </p>
 
-      <a href="mailto:jericakuah99@gmail.com" className="w-fit hover:underline">
+      <a
+        href="mailto:jericakuah99@gmail.com?subject=Hello!&body=Hi! I'd love to connect."
+        className="w-fit hover:underline"
+      >
         <div className="flex flex-row items-center gap-2 text-accent font-bold italic text-lg brightness-125">
           <MailIcon className="w-6 h-6" />
           click here to say hello :]
