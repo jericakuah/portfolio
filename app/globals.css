@@ -80,7 +80,7 @@
   --background: oklch(0.1894 0.0572 136.79);
   --foreground: oklch(0.9761 0 0);
   --primary: oklch(0.9761 0 0);
-  --color-accent-green: oklch(0.4483 0.0976 141.9);
+  --color-accent-green: oklch(0.4718 0.1542 141.93);
   --color-accent-orange: oklch(0.6815 0.187 47.16);
   --color-accent-purple: oklch(0.6636 0.1815 278.85);
 }
@@ -120,7 +120,7 @@
 }
 
 [data-theme="anyone"] {
-  --color-accent: oklch(0.4483 0.0976 141.9);
+  --color-accent: oklch(0.4718 0.1542 141.93);
   --background: oklch(0.1894 0.0572 136.79);
   --foreground: oklch(0.9761 0 0);
   --primary: oklch(0.9761 0 0);

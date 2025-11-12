@@ -6,6 +6,7 @@ import Hero from "./page/Hero";
 import Backstory from "./page/Backstory";
 import Hobbies from "./page/Hobbies";
 import Tools from "./page/Tools";
+import Principles from "./page/Principles";
 
 export default function Home() {
   return (
@@ -14,12 +15,14 @@ export default function Home() {
       <main className="flex w-full max-w-6xl flex-col items-center px-8 py-32">
         <Hero />
 
-        <div className="flex flex-col gap-12 w-full">
+        <div className="flex flex-col gap-18 w-full">
           <Backstory />
 
           <Hobbies />
 
           <Tools />
+
+          <Principles />
         </div>
       </main>
     </div>
