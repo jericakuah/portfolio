@@ -9,11 +9,11 @@ export default function Navbar() {
         <JericaIcon className="w-10 h-10" />
       </Link>
       <div className="items-center gap-4 hidden sm:flex">
-        <Link href="/">about</Link>
-        <Link href="/">blogs</Link>
-        <Link href="/">values</Link>
-        <Link href="/">case studies</Link>
-        <Link href="/">say hi!</Link>
+        <Link href="#backstory">about</Link>
+        <Link href="#hobbies">hobbies</Link>
+        <Link href="#tools">tools</Link>
+        <Link href="#principles">values</Link>
+        <Link href="#contact">say hi!</Link>
       </div>
     </nav>
   );

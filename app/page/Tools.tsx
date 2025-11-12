@@ -2,7 +2,7 @@ import Item from "./Tools/Item";
 
 export default function Tools() {
   return (
-    <div className="flex flex-col gap-8">
+    <div id="tools" className="flex flex-col gap-8 scroll-mt-24">
       <h2 className="sm:text-4xl text-xl font-bold italic">
         techie-tools for work
       </h2>

@@ -1,6 +1,6 @@
 export default function Principles() {
   return (
-    <div className="flex flex-col gap-8">
+    <div id="principles" className="flex flex-col gap-8 scroll-mt-24">
       <h2 className="sm:text-4xl text-xl font-bold italic">
         my guiding principles
       </h2>

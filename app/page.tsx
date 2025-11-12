@@ -16,7 +16,7 @@ export default function Home() {
       <main className="flex w-full max-w-6xl flex-col items-center px-8 py-32">
         <Hero />
 
-        <div className="flex flex-col gap-18 w-full">
+        <div className="flex flex-col gap-24 w-full">
           <Backstory />
 
           <Hobbies />

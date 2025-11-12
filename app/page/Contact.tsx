@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="flex flex-col gap-8">
+    <div id="contact" className="flex flex-col gap-8 scroll-mt-24">
       <h2 className="sm:text-4xl text-xl font-bold italic">say hi!</h2>
       <p className="font-mono">
         Thank you for stopping by!
