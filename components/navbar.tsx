@@ -4,7 +4,7 @@ import JericaIcon from "./icons/jerica";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between w-full py-4 px-8">
+    <nav className="sticky top-0 z-50 flex items-center justify-between w-full py-4 px-8 bg-background/80 backdrop-blur-sm">
       <Link href="/">
         <JericaIcon className="w-10 h-10" />
       </Link>
