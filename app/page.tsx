@@ -7,6 +7,7 @@ import Backstory from "./page/Backstory";
 import Hobbies from "./page/Hobbies";
 import Tools from "./page/Tools";
 import Principles from "./page/Principles";
+import Contact from "./page/Contact";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
           <Tools />
 
           <Principles />
+
+          <Contact />
         </div>
       </main>
     </div>
