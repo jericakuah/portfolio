@@ -21,7 +21,7 @@ export default function Blogs() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Card className="p-0 border-none bg-transparent">
+          <Card className="p-0 border-none bg-transparent shadow-none">
             <div className="flex flex-row gap-6 items-center">
               <Image
                 src="/images/blogs/til-substack-logo.png"
