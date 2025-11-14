@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-start font-sans">
       <Navbar />
-      <main className="flex w-full max-w-6xl flex-col items-center px-8 py-32">
+      <main className="flex w-full max-w-6xl flex-col items-center sm:px-8 px-4 py-32">
         <Hero />
 
         <div className="flex flex-col gap-24 w-full">
